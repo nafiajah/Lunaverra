@@ -9,7 +9,7 @@ $a = mysqli_fetch_object($kontak);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tambang Company</title>
+    <title>Lunaverra</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
@@ -18,7 +18,7 @@ $a = mysqli_fetch_object($kontak);
     <!-- header -->
     <header>
         <div class="container">
-            <h1><a href="index.php"><b>Gramednah</b></a></h1>
+            <h1><a href="index.php"><b>Lunaverra</b></a></h1>
             <ul>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="register.php">Register</a></li>
@@ -144,7 +144,7 @@ $a = mysqli_fetch_object($kontak);
             <h4>No. Hp</h4>
             <p><?php echo $a->admin_telp ?></p>
 
-            <small>Copyright &copy; 2023 - Bukawarung.</small>
+            <small>Copyright &copy; 2023 - Lunaverra.</small>
         </div>
     </div>
 
